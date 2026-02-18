@@ -27,3 +27,6 @@ Each component is connected to the ESP32 using designated GPIO pins:
 <h2 align="center"><b>System Architecture Diagram</b></h2>
 
   The Smart Farm Kit follows a three-layer embedded system architecture consisting of Input, Processing, and Output layers. The ESP32 microcontroller serves as the central processing unit that gathers sensor data, evaluates programmed conditions, and controls output devices accordingly.
+
+<img width="548" height="600" alt="image" src="https://github.com/user-attachments/assets/8ecf444e-c539-44db-98cd-a4856d3276a7" />
+
