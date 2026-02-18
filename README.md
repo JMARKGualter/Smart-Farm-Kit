@@ -1,4 +1,4 @@
-SMART FARM KIT
+<h1 align="center"><b>SMART FARM KIT</b></h1>
 
   The Smart Farm Kit is an MCU-based agricultural monitoring and control system designed to automate plant care and monitor environmental conditions. It uses an ESP32 microcontroller integrated with multiple sensors and actuators to ensure optimal plant growth.
 
@@ -15,7 +15,8 @@ The system can:
 <img width="548" height="482" alt="image" src="https://github.com/user-attachments/assets/c4195dd9-05c8-4f3d-8305-8d09e42a9b5d" />
 
 
-Wiring Connections
+<h2 align="center"><b>Wiring Connections</b></h2>
+
 
 Each component is connected to the ESP32 using designated GPIO pins:
 
@@ -23,3 +24,6 @@ Each component is connected to the ESP32 using designated GPIO pins:
 
 <img width="548" height="554" alt="image" src="https://github.com/user-attachments/assets/38090ef5-0ea6-46f3-b838-4824853a4c92" />
 
+<h3 align="center"><b>System Architecture Diagram</b></h3>
+
+  The Smart Farm Kit follows a three-layer embedded system architecture consisting of Input, Processing, and Output layers. The ESP32 microcontroller serves as the central processing unit that gathers sensor data, evaluates programmed conditions, and controls output devices accordingly.
