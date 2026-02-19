@@ -249,9 +249,9 @@ void drawStaticLogoWithText() {
   u8g2.clearBuffer();
   drawCompleteLogo();
   
-  // Add "TRIOE" text at (95, 110)
+  // Add "TRIOE" text at (110, 100)
   u8g2.setFont(u8g2_font_6x10_tr);
-  u8g2.drawStr(95, 110, "TRIOE");
+  u8g2.drawStr(110, 100, "TRIOE");
   
   u8g2.sendBuffer();
 }
@@ -342,7 +342,7 @@ void runLogoAnimation() {
     } else {
       // Move to next phase
       animationPhase++;
-      animationStep = 1;
+      animationStep = 0;
     }
   } else {
     // Animation complete - show static logo with text for 5 seconds
@@ -351,6 +351,7 @@ void runLogoAnimation() {
       staticDisplayStart = millis();
     }
     
+    // Draw static logo with TRIOE text
     drawStaticLogoWithText();
     
     // Check if 5 seconds have passed
@@ -610,7 +611,7 @@ void runScenario3() {
   char line[32];
   sprintf(line, "Next: %ds", timeLeft);
   drawText(45, line);
-  sprintf(line, "Door: %s", isOpen ? "CLOSED" : "OPEN");
+  sprintf(line, "Door: %s", isOpen ? "OPEN" : "CLOSED");
   drawText(65, line);
   sprintf(line, "Servo: %d", servoPosition);
   drawText(80, line);
@@ -824,7 +825,6 @@ void loop() {
     }
   } else {
     runLogoAnimation();
-    
   }
   
   delay(10);
