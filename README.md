@@ -30,6 +30,15 @@ Each component is connected to the ESP32 using designated GPIO pins:
 
 <img width="548" height="600" alt="image" src="https://github.com/user-attachments/assets/8ecf444e-c539-44db-98cd-a4856d3276a7" />
 
+<h2 align="center"><b>Setting up Arduino IDE and ESP32</b></h2>
+
+Downloading and Installing Arduino IDE
+https://youtu.be/3awCkLS7gHI?si=wpXwZMwOhHydn-Vb
+
+Installing ESP32 Library in Arduino IDE
+https://youtu.be/fCfJjE3y2xE?si=GpbefCEVu_ouphAh
+
+
 <h2 align="center"><b>Sensor Threshold</b></h2>
 
 <img width="548" height="221" alt="image" src="https://github.com/user-attachments/assets/855989ef-9b1c-4d23-b1c4-67dfc67b2ee7" />
